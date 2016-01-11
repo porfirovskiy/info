@@ -11,5 +11,7 @@ Composer usefull commands
 http://yapro.ru/web-master/unix/composer-poleznie-komandi.html
 
 Install yii2advanced with composer
-php composer.phar create-project --stability=dev yiisoft/yii2-app-advanced yiiadv
+composer global require "fxp/composer-asset-plugin:~1.1.1"
+composer create-project --prefer-dist yiisoft/yii2-app-advanced yii-application
+If not install tray frop cache.
 
